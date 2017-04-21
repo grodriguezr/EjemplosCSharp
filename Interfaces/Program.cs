@@ -12,10 +12,20 @@ namespace Interfaces
     internal interface IMyBaseInterface2 { }
     internal interface IMyInterface : IMyBaseInterface, IMyBaseInterface2 { }
     internal sealed class MyComplexClass : MyCLass, IMyInterface { }
+    //Interfaces a implementar explícitamente
+    public interface IInterface1
+    {
+        void Imprimir();
+    }
+    public interface IInterface2
+    {
+        void Imprimir();
+    }
+    
 
 
 
-    class Program
+    class Program : IInterface1, IInterface2
     {
         static void Main(string[] args)
         {
@@ -54,6 +64,18 @@ namespace Interfaces
             cd.ImprimeMensaje();
             MiMetodo(cd);
 
+
+            Program pr = new Program();
+
+            IInterface1 i1 = pr;
+            IInterface2 i2 = pr;
+
+            Console.WriteLine("Implementación explícita:");
+            i1.Imprimir();
+            i2.Imprimir();
+
+
+
             Console.ReadLine();
         }
         private static void MiMetodo(IMiInterfaz m)
@@ -61,5 +83,17 @@ namespace Interfaces
             Console.WriteLine("Llamada dentro de método");
             m.ImprimeMensaje();
         }
+
+        void IInterface1.Imprimir()
+        {
+            Console.WriteLine("IInterface1 explícitamente implementada");
+        }
+
+        void IInterface2.Imprimir()
+        {
+            Console.WriteLine("IInterface2 explícitamente implementada");
+        }
+
+        
     }
 }
