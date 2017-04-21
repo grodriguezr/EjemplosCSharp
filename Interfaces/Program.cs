@@ -13,6 +13,7 @@ namespace Interfaces
     internal interface IMyInterface : IMyBaseInterface, IMyBaseInterface2 { }
     internal sealed class MyComplexClass : MyCLass, IMyInterface { }
     //Interfaces a implementar explícitamente
+    #region Interfaces
     public interface IInterface1
     {
         void Imprimir();
@@ -21,7 +22,7 @@ namespace Interfaces
     {
         void Imprimir();
     }
-    
+    #endregion
 
 
 
