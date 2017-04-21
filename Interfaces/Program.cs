@@ -19,7 +19,7 @@ namespace Interfaces
             ClaseDos miClase2 = new ClaseDos();
             IMiInterfaz miInterfaz;
             miInterfaz = miClase;
-            Console.WriteLine($"Llamado por polimorfismo de interfaces: ");
+            Console.WriteLine("Llamado por polimorfismo de interfaces: ");
             miInterfaz.ImprimeMensaje();
             miInterfaz = miClase2;
             miInterfaz.ImprimeMensaje();
