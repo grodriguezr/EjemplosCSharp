@@ -6,10 +6,23 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
+    public abstract class MyBase { }
+    internal class MyCLass : MyBase { }
+    public interface IMyBaseInterface { }
+    internal interface IMyBaseInterface2 { }
+    internal interface IMyInterface : IMyBaseInterface, IMyBaseInterface2 { }
+    internal sealed class MyComplexClass : MyCLass, IMyInterface { }
+
+
+
     class Program
     {
         static void Main(string[] args)
         {
+            MyComplexClass MyObj = new MyComplexClass();
+            Console.WriteLine(MyObj.ToString());
+
+
             IMiInterfaz prueba1 = new ClaseUno();
             IMiInterfaz prueba2 = new ClaseDos();
             IMiInterfaz prueba3 = new ClaseTres();
