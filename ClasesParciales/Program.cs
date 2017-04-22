@@ -22,6 +22,8 @@ namespace ClasesParciales
             Console.WriteLine($"El área del rectángulo es: {miRectangulo.Area()}");
             Console.WriteLine($"El perímetro del rectángulo es: {miRectangulo.Perimetro()}");
 
+            miRectangulo.MiMetodo();
+
             Console.ReadLine();
 
         }

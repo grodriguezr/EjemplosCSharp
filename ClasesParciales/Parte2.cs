@@ -16,5 +16,10 @@ namespace ClasesParciales
         {
             return (2 * this.Base + 2 * this.Altura);
         }
+        partial void Imprimir()
+        {
+            Console.WriteLine("Esto es un rectángulo");
+        }
+
     }
 }
