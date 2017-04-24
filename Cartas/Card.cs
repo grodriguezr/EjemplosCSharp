@@ -21,7 +21,7 @@ namespace Cartas
        
         public override string ToString()
         {
-            return "The "+ rank + "of " +  suit + "s";
+            return "The "+ rank + " of " +  suit + "s";
         }
     }
 }

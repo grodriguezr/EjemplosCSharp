@@ -14,7 +14,7 @@ namespace Cartas
             cards = new Card[52];
             for (int suitVal = 0; suitVal < 4; suitVal++)
             {
-                for (int rankVal = 0; rankVal < 14; rankVal++)
+                for (int rankVal = 1; rankVal < 14; rankVal++)//arreglada la excepción, rankVal era 0
                 {
                     cards[suitVal * 13 + rankVal - 1] = new Card((Suit)suitVal, (Rank)rankVal);
                 }

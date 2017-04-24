@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesParciales", "ClasesPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cartas", "Cartas\Cartas.csproj", "{AA851919-57A5-4FA3-90D2-A585F118C231}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasCliente", "CartasCliente\CartasCliente.csproj", "{5E447380-1639-489B-9175-6D5E9378EDCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{AA851919-57A5-4FA3-90D2-A585F118C231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA851919-57A5-4FA3-90D2-A585F118C231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA851919-57A5-4FA3-90D2-A585F118C231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E447380-1639-489B-9175-6D5E9378EDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E447380-1639-489B-9175-6D5E9378EDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E447380-1639-489B-9175-6D5E9378EDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E447380-1639-489B-9175-6D5E9378EDCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
