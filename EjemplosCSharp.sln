@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cartas", "Cartas\Cartas.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasCliente", "CartasCliente\CartasCliente.csproj", "{5E447380-1639-489B-9175-6D5E9378EDCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecciones", "Colecciones\Colecciones.csproj", "{5939B7C5-B03E-4E24-9578-C1A802FF07FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColeccionesIndexers", "ColeccionesIndexers\ColeccionesIndexers.csproj", "{616EA41B-992C-493F-9811-D84478535676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{5E447380-1639-489B-9175-6D5E9378EDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E447380-1639-489B-9175-6D5E9378EDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E447380-1639-489B-9175-6D5E9378EDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5939B7C5-B03E-4E24-9578-C1A802FF07FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5939B7C5-B03E-4E24-9578-C1A802FF07FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5939B7C5-B03E-4E24-9578-C1A802FF07FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5939B7C5-B03E-4E24-9578-C1A802FF07FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616EA41B-992C-493F-9811-D84478535676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616EA41B-992C-493F-9811-D84478535676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616EA41B-992C-493F-9811-D84478535676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616EA41B-992C-493F-9811-D84478535676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
