@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecciones", "Colecciones\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColeccionesIndexers", "ColeccionesIndexers\ColeccionesIndexers.csproj", "{616EA41B-992C-493F-9811-D84478535676}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasCollection", "CartasCollection\CartasCollection.csproj", "{D822A83C-B6C0-4009-8009-D1E929987F55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{616EA41B-992C-493F-9811-D84478535676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616EA41B-992C-493F-9811-D84478535676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616EA41B-992C-493F-9811-D84478535676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D822A83C-B6C0-4009-8009-D1E929987F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D822A83C-B6C0-4009-8009-D1E929987F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D822A83C-B6C0-4009-8009-D1E929987F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D822A83C-B6C0-4009-8009-D1E929987F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
